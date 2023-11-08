@@ -7,7 +7,7 @@ if (-not (Get-Command -Name 'spicetify' -ErrorAction 'SilentlyContinue')) {
   Write-Host -Object 'Arquivo Nao Localizado.' -ForegroundColor 'Red'
   Write-Host -Object 'Instalando Para Você' -ForegroundColor 'Green'
   $Parameters = @{
-    Uri             = 'https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1'
+    Uri             = 'https://raw.githubusercontent.com/UniverseHubScripts/SpotifyClient/main/install.ps1'
     UseBasicParsing = $true
   }
   Invoke-WebRequest @Parameters | Invoke-Expression
