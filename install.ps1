@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Write-Host -Object 'Iniciando Instalação...' -ForegroundColor 'Cyan'
+Write-Host -Object 'Iniciando Download...' -ForegroundColor 'Cyan'
 
 if (-not (Get-Command -Name 'spicetify' -ErrorAction 'SilentlyContinue')) {
   Write-Host -Object 'Spicetify Não Encontrado.' -ForegroundColor 'Red'
