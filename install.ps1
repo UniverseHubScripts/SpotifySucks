@@ -73,4 +73,7 @@ spicetify backup
 spicetify apply
 
 Write-Host -Object 'Tudo Pronto!' -ForegroundColor 'Green'
-Write-Host -Object 'Se nada for alterado, Verifique as mensagens a cima e encontre os erros'
+Write-Host -Object 'Se nada for alterado, Verifique as mensagens a cima e encontre os erros' -ForegroundColor 'Red'
+Write-Host -Object 'Se Nada Ocorreu e você não encontrou erros, sinceramente vai se fuder' -ForegroundColor 'Red'
+Write-Host -Object 'Leo Gay' -ForegroundColor 'Green'
+
